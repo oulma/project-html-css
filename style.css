@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 20px;
+    outline: ;
+}
+
+
+/* Css for navbar   */
+
+nav{
+    position: fixed;
+	width: 100%;
+	height: 75px;
+	background-color: #ffffff;
+	line-height: 75px;
+	padding:0px 100px;
+	position:fixed;
+	z-index: 1;
+}
+nav .logo{
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1.5px; 
+}
+nav .logo p{
+	float: left;
+	color:#007bff;
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li a{
+	color:rgb(0, 0, 0);
+	text-decoration: none;
+	font-size: 18px;
+	padding:0px 32px;
+}
+nav ul li a:hover{
+	color: #007bff;
+}
+nav ul li .active{
+	color: #007bff;
+}
+
+
+
+/* CSS pour section Hero */
+
+.hero-image {
+    background-image: url("img/hero_2.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.hero-text{
+  text-align: center;
+  font-weight: bold; 
+  color: white;
+  text-transform: uppercase;
+}
+
+.hero-text p{
+
+    font-weight: normal; 
+    font-size: 22px;
+    text-transform: none;
+}
+
+.hero-text button {
+    border: none;
+
+    text-transform: capitalize;
+    padding: 10px 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10%;
+    border-radius: 20px;
+    background-color: #007bff;
+
+}
+
+.hero-text button:hover{
+
+    background-color: black;
+}
+
+/* CSS pour section About */
+
+.about{
+
+ display: block;
+ height: 100vh;
+ position: relative;
+ 
+
+}
+
+.about-content {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+     justify-content: flex-end; 
+    align-items: center;
+    height: 100%;
+
+
+}
+
+
+.about-image{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text{
+
+    width: 100%;
+
+    padding-bottom: 4.5%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around; 
+
+
+}
+
+.about-text p{
+  color: rgb(73, 73, 73);
+}
+
+.about-title {
+    text-align: center;
+    /* padding-top: 8%; */
+    position: absolute;
+
+    top: 10%;
+    right: 50%;
+
+    transform: translate(50%, -50%);
+
+}
+
+.about-title p {
+
+    font-size: 2em;
+    font-weight: bold;
+    color: #007bff;
+
+
+}
+
+
+
+.about-text ul{
+    list-style: none;
+    padding-top: 0.5em;
+
+
+
+}
+
+.about-text ul li::before{
+    content: "✓";
+    color: rgb(134, 236, 134);
+    font-weight: bold;
+    display: inline-block; 
+    /* width: 1em; */
+    /* margin-left: 1em; */
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+}
+
+
+/* CSS pour section Feature */
+
+
+.feature{
+
+    display: block;
+    height: 100vh;
+    position: relative;
+    
+   
+   }
+   
+   .feature-content {
+   
+       width: 100%;
+       display: flex;
+       flex-direction: row;
+       /* justify-content: flex-end; */
+       align-items: center;
+       height: 100%;
+   
+   
+   }
+   
+   
+   .feature-image{
+   
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   .feature-text{
+   
+       width: 100%; 
+       padding-bottom: 4.5%;
+   
+   }
+   
+   .feature-text p{
+     color: rgb(73, 73, 73);
+   }
+   
+   .feature-title {
+       text-align: center;
+       /* padding-top: 8%; */
+       position: absolute;
+   
+       top: 20%;
+       right: 50%;
+       transform: translate(40%, -50%);
+
+   }
+   
+   .feature-title p {
+   
+       font-size: 2em;
+       font-weight: bold;
+       color: #007bff;
+   
+   
+   }
+
+   .feature-title span {
+
+    color: rgb(119, 117, 117);
+
+   }
+   
+   
+   
+   .about-text ul{
+       list-style: none;
+       padding-top: 0.5em;
+   
+   
+   
+   }
+   
+   .about-text ul li::before{
+       content: "✓";
+       color: rgb(134, 236, 134);
+       font-weight: bold;
+       display: inline-block; 
+       /* width: 1em; */
+       /* margin-left: 1em; */
+       padding-right: 0.5em;
+       padding-top: 0.5em;
+   }
+
+
+
+
+
+
+  
+ 
+
+
+
+
+
+
